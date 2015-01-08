@@ -17,3 +17,5 @@ include device/sony/shinano/BoardConfig.mk
 TARGET_BOOTLOADER_BOARD_NAME := SGP621
 
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12253641728
+
+TARGET_SPECIFIC_HEADER_PATH += device/sony/scorpion/include
