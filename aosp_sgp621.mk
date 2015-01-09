@@ -28,7 +28,9 @@ PRODUCT_COPY_FILES += \
     device/sony/scorpion/rootdir/system/etc/bcmdhd.cal:system/etc/firmware/wlan/bcmdhd/bcmdhd.cal \
     device/sony/scorpion/rootdir/system/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
     device/sony/scorpion/rootdir/system/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
-    device/sony/scorpion/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml
+    device/sony/scorpion/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml \
+    device/sony/scorpion/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    device/sony/scorpion/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
 
 PRODUCT_COPY_FILES += \
     device/sony/scorpion/rootdir/system/etc/tfa98xx/coldboot.patch:/system/etc/tfa98xx/coldboot.patch \
