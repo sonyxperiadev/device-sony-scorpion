@@ -24,6 +24,7 @@ $(call inherit-product, vendor/sony/scorpion/scorpion-vendor.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 $(call inherit-product-if-exists, prebuilts/chromium/webview_prebuilt.mk)
+$(call inherit-product-if-exists, vendor/google/products/gms.mk)
 
 PRODUCT_COPY_FILES += \
     device/sony/scorpion/rootdir/system/etc/BCM4354.hcd:system/etc/firmware/BCM43xx.hcd \
