@@ -1,4 +1,3 @@
-#
 # Copyright 2014 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +11,13 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-add_lunch_combo aosp_sgp611_windy-userdebug
-add_lunch_combo aosp_sgp621-userdebug
+TARGET_KERNEL_CONFIG := aosp_shinano_scorpion_windy_defconfig
+
+$(call inherit-product, device/sony/scorpion/aosp_sgp621_common.mk)
+
+PRODUCT_NAME := aosp_sgp611_windy
+PRODUCT_DEVICE := scorpion
+PRODUCT_MODEL := Xperia Z3 Tablet Compact WiFi(AOSP)
+PRODUCT_BRAND := Sony
+PRODUCT_MANUFACTURER := Sony
