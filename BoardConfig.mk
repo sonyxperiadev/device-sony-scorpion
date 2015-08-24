@@ -16,6 +16,8 @@ include device/sony/shinano/BoardConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := SGP621
 
+TARGET_RECOVERY_FSTAB = device/sony/scorpion/rootdir/fstab.shinano
+
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12253641728
 
 #BOARD_KERNEL_CMDLINE += mem=1281M@255M mem=1407M@2048M
