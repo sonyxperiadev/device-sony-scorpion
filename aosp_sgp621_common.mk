@@ -27,6 +27,7 @@ $(call inherit-product-if-exists, prebuilts/chromium/webview_prebuilt.mk)
 $(call inherit-product-if-exists, vendor/google/products/gms.mk)
 
 PRODUCT_COPY_FILES += \
+    device/sony/scorpion/rootdir/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     device/sony/scorpion/rootdir/system/etc/BCM4354.hcd:system/etc/firmware/BCM43xx.hcd \
     device/sony/scorpion/rootdir/system/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     device/sony/scorpion/rootdir/system/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
