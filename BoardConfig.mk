@@ -25,4 +25,3 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12253641728
 PRODUCT_VENDOR_KERNEL_HEADERS += device/sony/scorpion/kernel-headers
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
-TARGET_TAP_TO_WAKE_STRING := true
