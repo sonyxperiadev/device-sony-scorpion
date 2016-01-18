@@ -8,4 +8,4 @@
 /dev/block/platform/msm_sdcc.1/by-name/boot         /boot             emmc    defaults                                                      defaults
 /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel   /recovery         emmc    defaults                                                      defaults
 /devices/msm_sdcc.3/mmc_host*                       auto              auto    defaults                                                      voldmanaged=sdcard1:auto,encryptable=userdata
-/devices/platform/xhci-hcd                          auto              auto    defaults                                                      voldmanaged=usbdisk:auto
+/devices/*/xhci-hcd.0.auto/usb*                     auto              auto    defaults                                                      voldmanaged=usb:auto
