@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
     device/sony/scorpion/rootdir/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     device/sony/scorpion/rootdir/system/etc/BCM4354.hcd:system/etc/firmware/BCM43xx.hcd \
     device/sony/scorpion/rootdir/system/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-    device/sony/scorpion/rootdir/system/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
     device/sony/scorpion/rootdir/system/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     device/sony/scorpion/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml \
     device/sony/scorpion/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
