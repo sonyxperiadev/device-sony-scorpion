@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     device/sony/scorpion/rootdir/fstab.shinano:root/fstab.shinano
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+$(call inherit-product, device/sony/common/common.mk)
 $(call inherit-product, device/sony/shinano/device.mk)
 $(call inherit-product, vendor/sony/scorpion/scorpion-vendor.mk)
 $(call inherit-product, frameworks/native/build/tablet-7in-xhdpi-2048-dalvik-heap.mk)
