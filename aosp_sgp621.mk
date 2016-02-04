@@ -17,9 +17,23 @@ TARGET_KERNEL_CONFIG := aosp_shinano_scorpion_defconfig
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 $(call inherit-product, device/sony/scorpion/aosp_sgp621_common.mk)
 
+# Device Init
+PRODUCT_PACKAGES += \
+    init.recovery.scorpion \
+    init.scorpion \
+    ueventd.scorpion
+
+# Lights
+PRODUCT_PACKAGES += \
+    lights.scorpion
+
+# Simple PowerHAL
+PRODUCT_PACKAGES += \
+    power.scorpion
+
 # NFC config
-PRODUCT_PACKAGES += nfc_nci.scorpion
-ADDITIONAL_DEFAULT_PROPERTIES += ro.hardware.nfc_nci=scorpion
+PRODUCT_PACKAGES += \
+    nfc_nci.scorpion
 
 PRODUCT_NAME := aosp_sgp621
 PRODUCT_DEVICE := scorpion

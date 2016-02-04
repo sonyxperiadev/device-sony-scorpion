@@ -15,9 +15,6 @@
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/scorpion/overlay
 
-PRODUCT_COPY_FILES += \
-    device/sony/scorpion/rootdir/fstab.shinano:root/fstab.shinano
-
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, device/sony/common/common.mk)
 $(call inherit-product, device/sony/shinano/device.mk)
