@@ -17,6 +17,24 @@ TARGET_KERNEL_CONFIG := aosp_shinano_scorpion_defconfig
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
 $(call inherit-product, device/sony/scorpion_windy/aosp_sgp6xx_common.mk)
 
+# Device Init
+PRODUCT_PACKAGES += \
+    init.recovery.scorpion \
+    init.scorpion \
+    ueventd.scorpion
+
+# Lights
+PRODUCT_PACKAGES += \
+    lights.scorpion
+
+# Simple PowerHAL
+PRODUCT_PACKAGES += \
+    power.scorpion
+
+# NFC config
+PRODUCT_PACKAGES += \
+    nfc_nci.scorpion
+
 PRODUCT_NAME := aosp_sgp621
 PRODUCT_DEVICE := scorpion
 PRODUCT_MODEL := Xperia Z3 Tablet Compact(AOSP)
