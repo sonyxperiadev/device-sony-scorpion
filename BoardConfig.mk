@@ -12,8 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/shinano/BoardConfig.mk
-include device/sony/common/CommonConfig.mk
+include device/sony/scorpion_windy/BoardConfigCommon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := SGP621
 
@@ -22,5 +21,3 @@ TARGET_RECOVERY_FSTAB = device/sony/scorpion/rootdir/fstab.shinano
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12253641728
 
 #BOARD_KERNEL_CMDLINE += mem=1281M@255M mem=1407M@2048M
-
-PRODUCT_VENDOR_KERNEL_HEADERS += device/sony/scorpion/kernel-headers
