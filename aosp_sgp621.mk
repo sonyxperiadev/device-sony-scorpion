@@ -15,7 +15,7 @@
 TARGET_KERNEL_CONFIG := aosp_shinano_scorpion_defconfig
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony.mk)
-$(call inherit-product, device/sony/scorpion/aosp_sgp621_common.mk)
+$(call inherit-product, device/sony/scorpion_windy/aosp_sgp6xx_common.mk)
 
 PRODUCT_NAME := aosp_sgp621
 PRODUCT_DEVICE := scorpion
