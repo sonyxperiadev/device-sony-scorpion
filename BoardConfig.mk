@@ -16,8 +16,6 @@ include device/sony/scorpion_windy/BoardConfigCommon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := SGP621
 
-TARGET_RECOVERY_FSTAB = device/sony/scorpion/rootdir/fstab.shinano
-
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12253641728
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=scorpion
