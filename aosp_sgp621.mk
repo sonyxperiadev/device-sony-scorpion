@@ -14,6 +14,9 @@
 
 TARGET_KERNEL_CONFIG := aosp_shinano_scorpion_defconfig
 
+DEVICE_PACKAGE_OVERLAYS += \
+    device/sony/scorpion/overlay
+
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
